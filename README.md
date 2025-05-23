@@ -16,8 +16,8 @@ A Python script to identify insecure cookie configurations in web applications, 
 ## Installation
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/cookie-auditor.git
-cd cookie-auditor
+git clone https://github.com/Logicc-17/pythonScripter.git
+cd pythonScripter
 
 # Create virtual environment (recommended)
 python3 -m venv venv
