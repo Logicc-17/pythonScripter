@@ -1,28 +1,56 @@
-# 🍪 Cookie Security Auditor
+# 🍪 Advanced Cookie Security Auditor
 
-A Python script to identify insecure cookie configurations in web applications, detecting vulnerabilities that could lead to session hijacking, XSS attacks, and other security risks.
-
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![Security](https://img.shields.io/badge/security-tool-red)
+![Maintenance](https://img.shields.io/badge/maintenance-active-brightgreen)
 
-## Features
-- Detects missing `Secure` flags (HTTP transmission risk)
-- Identifies missing `HttpOnly` flags (XSS vulnerability)
-- Analyzes excessive cookie expiration times
-- Validates cookie scope (domain/path restrictions)
-- Supports both command-line and interactive modes
-- Browser-like User-Agent spoofing
+A professional-grade tool for identifying insecure cookie configurations and security header vulnerabilities in web applications.
 
-## Installation
+## Table of Contents
+- [Features](#-key-features)
+- [Installation](#-installation)
+- [Quick Start](#-quick-start)
+- [Usage Examples](#-usage-examples)
+- [Sample Findings](#-sample-findings)
+- [Best Practices](#-best-practices-detected)
+- [License](#-license)
+- [Disclaimer](#-disclaimer)
+
+## 🔍 Key Features
+
+### Cookie Security Analysis
+- **Secure Flag Validation**
+- **HttpOnly Protection**
+- **SameSite Policy Audit**
+- **Cookie Scope Analysis**
+- **Expiration Review**
+
+### Security Header Verification
+- **Content-Security-Policy**
+- **Strict-Transport-Security**
+- **X-Frame-Options**
+- **X-Content-Type-Options**
+
+### Operational Features
+- **Dual Mode Operation**
+- **Stealth Scanning**
+- **Batch Processing**
+- **Comprehensive Reporting**
+
+## 🛠 Installation
+
 ```bash
-# Clone repository
+# Clone the repository
 git clone https://github.com/Logicc-17/pythonScripter.git
 cd pythonScripter
 
-# Create virtual environment (recommended)
+# Set up virtual environment (recommended)
 python3 -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate    # Windows
+
+# Activate environment
+source venv/bin/activate  # Linux/MacOS
+.\venv\Scripts\activate  # Windows
 
 # Install dependencies
 pip install -r requirements.txt
